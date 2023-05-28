@@ -4,6 +4,11 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+
+
 import java.util.Date;
 //mark class as an Entity   
 @Entity
@@ -11,8 +16,9 @@ import java.util.Date;
 @Table(name="admin")
 public class Admins {
 //Defining admin id as primary key  
-	@Id
-	@Column
+	 @Id
+	    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	    @Column(name = "adminid")
 	private int adminid;
 	@Column
 	private String name;
