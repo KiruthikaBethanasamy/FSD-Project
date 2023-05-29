@@ -1,0 +1,139 @@
+/* Events.css */
+
+h1 {
+    text-align: center;
+    color: #121111;
+    font-size: 32px;
+    margin-bottom: 20px;
+    background-image: "port2.jpg";
+  }
+  
+  .event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .event-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .event-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .event-item p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /*input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    
+  }*/
+  
+  .event-list p {
+    text-align: center;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  /* Optional: Add a background image */
+  /*body {
+    background-image: url("../media/thailandbg.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  */
+
+.event-button {
+    background-color: #4a6787;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .event-button:hover {
+    background-color: #a0b7cf;
+  }
+  
+  .event-button:focus {
+    outline: none;
+  }
+
+  /*.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }*/
+  
+ /* .search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+  /*-webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 1px;
+  padding: 1rem;
+  border: 1px solid hsl(225, 10%, 45%);
+  border-radius: 2rem;
+  background-color: rgb(231, 231, 231);
+  }*/
+  .search-box {
+    text-align: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+  }
+  
+  .my-element {
+    background-image: url("https://w0.peakpx.com/wallpaper/136/477/HD-wallpaper-boat-river-thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .my-eventimage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
